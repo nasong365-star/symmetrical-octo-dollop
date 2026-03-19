@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Datasets: keep only demo files in GitHub
+datasets/*
+!datasets/ALOI.mat
+!datasets/3sources.mat
+
+# Experiment outputs
+results/
+tsne/
+Tensor_classify.txt
+Tensor_cluster.txt
+
+# macOS system files
+.DS_Store
+
+# IDE / editor config
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
